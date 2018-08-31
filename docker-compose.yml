@@ -1,6 +1,6 @@
 version: '2'
 services:
-  wiki:
+  wiki-image:
     build: .
     ports:
       - "80:80"
