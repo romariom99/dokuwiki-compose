@@ -5,7 +5,10 @@ services:
     ports:
       - "80:80"
 
-
+  mysql1:
+    build: ./mysql
+    ports:
+     - "90:90"
 
 
 
